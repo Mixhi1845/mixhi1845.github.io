@@ -162,9 +162,9 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	/*body {
+	body {
 		background: #242629;
-	}*/
+	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;

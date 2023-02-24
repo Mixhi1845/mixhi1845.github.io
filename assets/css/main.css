@@ -162,9 +162,9 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
+	/*body {
 		background: #242629;
-	}
+	}*/
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -1181,6 +1181,8 @@ input, select, textarea {
 
 		}
 
+
+
 /* Poptrox Popup */
 
 	.poptrox-overlay {
@@ -1564,6 +1566,41 @@ input, select, textarea {
 			transform: translateY(0);
 			bottom: auto;
 			height: 4em;
+			padding: 0 1em;
+			top: 0;
+		}
+
+			body.is-preload #header {
+				-moz-transform: translateY(-3.4em);
+				-webkit-transform: translateY(-3.4em);
+				-ms-transform: translateY(-3.4em);
+				transform: translateY(-3.4em);
+			}
+
+			#header h1 {
+				font-size: 0.9em;
+			}
+
+			#header nav > ul > li a {
+				font-size: 0.9em;
+				padding: 0 1.15em;
+			}
+
+	}
+
+	@media screen and (max-width: 375px) {
+
+		body {
+			padding: 4em 0 0 0;
+		}
+
+		#header {
+			-moz-transform: translateY(0);
+			-webkit-transform: translateY(0);
+			-ms-transform: translateY(0);
+			transform: translateY(0);
+			bottom: auto;
+			height: 8em;
 			padding: 0 1em;
 			top: 0;
 		}

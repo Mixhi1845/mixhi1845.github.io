@@ -144,6 +144,7 @@ input, select, textarea {
 
 	body {
 		-ms-overflow-style: scrollbar;
+		background-color: #181a1b;
 	}
 
 	@media screen and (max-width: 480px) {

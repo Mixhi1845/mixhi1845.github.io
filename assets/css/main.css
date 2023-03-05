@@ -2044,6 +2044,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			#header {
+				height: 8em;
+			}
+
 			#main .thumb {
 				-moz-transition-delay: 1.175s;
 				-webkit-transition-delay: 1.175s;
@@ -2088,5 +2092,67 @@ input, select, textarea {
 			color: inherit;
 		}
 
-/* Genres */
+/* https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp */
+
+	/*	* {
+			box-sizing: border-box;
+		  }
+		  
+		  .bodyindex {
+			padding: 20px;
+		  } */
+		  
+		  /* Center website */
+		  .mainindex {
+			max-width: 1000px;
+			margin: auto;
+		  }
+		  
+		  h1 {
+			font-size: 50px;
+			word-break: break-all;
+		  }
+		  
+		  .rowindex {
+			margin: 8px -16px;
+		  }
+		  
+		  /* Add padding BETWEEN each column (if you want) */
+		  .rowindex,
+		  .rowindex > .column {
+			padding: 8px;
+		  }
+		  
+		  /* Create four equal columns that floats next to each other */
+		  .columnindex {
+			float: left;
+			width: 25%;
+		  }
+		  
+		  /* Clear floats after rows */
+		  .row:after {
+			content: "";
+			display: table;
+			clear: both;
+		  }
+		  
+		  /* Content */
+		  .contentindex {
+			background-color: #1f2224;
+			padding: 10px;
+		  }
+		  
+		  /* Responsive layout - makes a two column-layout instead of four columns */
+		  @media screen and (max-width: 900px) {
+			.columnindex {
+			  width: 50%;
+			}
+		  }
+		  
+		  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+		  @media screen and (max-width: 600px) {
+			.columnindex {
+			  width: 100%;
+			}
+		  }
 	

@@ -1553,7 +1553,50 @@ input, select, textarea {
 						#header nav > ul > li a.active {
 							background-color: #242629;
 						}
+/*			
+			#menu1 {
+				position: absolute;
+				top: 0;
+			}
 
+				#menu1 > ul {
+					list-style: none;
+					margin: 23px;
+					padding: 0;
+				}
+
+				#menu1 > ul > li {
+					display: inline-block;
+					padding: 0;
+				}
+
+				#menu1 > ul > li a {
+					-moz-transition: background-color 0.5s ease;
+					-webkit-transition: background-color 0.5s ease;
+					-ms-transition: background-color 0.5s ease;
+					transition: background-color 0.5s ease;
+					border: 0;
+					color: #ffffff;
+					display: inline-block;
+					letter-spacing: 0.1em;
+					padding: 0 1.65em;
+					text-transform: uppercase;
+				}
+
+				#menu1 ul > li a.icon:before {
+					color: #505051;
+					float: right;
+					margin-left: 0.75em;
+				}
+
+				#menu1 ul > li a:hover {
+					color: #ffffff !important;
+				}
+
+				#menu1 ul > li a.active {
+					background-color: #242629;
+				}
+*/
 	@media screen and (max-width: 736px) {
 
 		body {
@@ -2096,11 +2139,11 @@ input, select, textarea {
 
 	/*	* {
 			box-sizing: border-box;
-		  }
+		  }*/
 		  
 		  .bodyindex {
-			padding: 20px;
-		  } */
+			padding: 40px;
+		  } 
 		  
 		  /* Center website */
 		  .mainindex {
